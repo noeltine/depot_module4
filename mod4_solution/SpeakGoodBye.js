@@ -4,6 +4,7 @@
 
 // STEP 7: Create an object, called 'byeSpeaker' to which you will attach
 var byeSpeaker = { };
+
 var speakWord = "Good Bye";
 
 // STEP 8: Rewrite the 'speak' function such that it is attached to the
@@ -14,4 +15,4 @@ byeSpeaker.speak = function (name) {
 window.byeSpeaker = byeSpeaker;
 })(window);
 
-// (Note, Step 10 will be done in the script.js file.)
+// (Note, Step 10, 11 and 12 done in the script.js file.)
